@@ -9,4 +9,4 @@ UDEMY - Ivan Petrichenko
 * And additional materials
 
 ## Start project 
-gulp default
+gulp
