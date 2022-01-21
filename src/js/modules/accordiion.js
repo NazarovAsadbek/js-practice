@@ -16,7 +16,6 @@ const accordion = (triggersSelector, itemsSelector) => {
           }
        });
     });
-
 };
 
 export default accordion;
