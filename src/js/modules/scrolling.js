@@ -102,7 +102,7 @@ const scrolling = (upSelector) => {
     //     }
     // };
     // 29:14
-    calcScroll();
+    // calcScroll();
 };
 
 export default scrolling;

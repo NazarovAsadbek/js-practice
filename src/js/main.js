@@ -9,6 +9,7 @@ import pictureSize from "./modules/pictureSize";
 import accordiion from "./modules/accordiion";
 import burger from "./modules/burger";
 import scrolling from "./modules/scrolling";
+import drug from "./modules/drug";
 
 window.addEventListener('DOMContentLoaded', () => {
 	'use strict';
@@ -26,4 +27,5 @@ window.addEventListener('DOMContentLoaded', () => {
 	accordiion('.accordion-heading', '.accordion-block');
 	burger('.burger-menu', '.burger');
 	scrolling('.pageup');
+	drug();
 });
