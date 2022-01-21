@@ -8,6 +8,7 @@ import filter from "./modules/filter";
 import pictureSize from "./modules/pictureSize";
 import accordiion from "./modules/accordiion";
 import burger from "./modules/burger";
+import scrolling from "./modules/scrolling";
 
 window.addEventListener('DOMContentLoaded', () => {
 	'use strict';
@@ -23,5 +24,6 @@ window.addEventListener('DOMContentLoaded', () => {
 	filter();
 	pictureSize('.sizes-block');
 	accordiion('.accordion-heading', '.accordion-block');
-	burger('.burger-menu', '.burger')
+	burger('.burger-menu', '.burger');
+	scrolling('.pageup');
 });
