@@ -16,11 +16,11 @@ export default class Form {
         });
     }
 
-    checkMailInputs(){
+    checkMailInputs() {
         const mailInputs = document.querySelectorAll('[type="email"]');
 
         mailInputs.forEach(input => {
-            input.addEventListener('keypress', function(e) {
+            input.addEventListener('keypress', function (e) {
                 if (e.key.match(/[^a-z 0-9 @ \.]/ig)) {
                     e.preventDefault();
                 }
@@ -55,7 +55,7 @@ export default class Form {
                 val = def;
             }
 
-            this.value = matrix.replace(/./g, function(a) {
+            this.value = matrix.replace(/./g, function (a) {
                 return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? '' : a;
             });
 

@@ -2,6 +2,7 @@ import MainSlider from "./modules/slider/slider-main";
 import VideoPlayer from "./modules/playVideo";
 import MiniSlider from "./modules/slider/slider-mini";
 import Difference from "./modules/difference";
+import Form from "./modules/forms";
 
 window.addEventListener('DOMContentLoaded', () => {
     const slider = new MainSlider({container: '.page', btns: '.next'});
