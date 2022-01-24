@@ -1,4 +1,4 @@
-# 04 - Project №3. Multi-page site and scripts completely in OOP style
+# 04 - Project #4  Create your own JavaScript UI library
 UDEMY - Ivan Petrichenko
 
 ## Start project 
