@@ -12,4 +12,6 @@ import './lib/lib'
 //     console.log($(this).indexTest());
 // })
 
-console.log($('div').eq(3).find('.more'))
+// console.log($('.some').closest('.findme'));
+
+console.log($('.findme').siblings());
