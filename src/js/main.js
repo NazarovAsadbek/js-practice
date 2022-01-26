@@ -1,20 +1,11 @@
 import './lib/lib'
 
-// $('div').hide()
-// $('div').show()
-// $('.active').toggle()
-
-// $('button').on('click', function () {
-//     $('div').eq(1).toggleClass('active');
-// });
-//
-//     $('div').click(function () {
-//     console.log($(this).indexTest());
-// })
-
-// console.log($('.some').closest('.findme'));
-
-// console.log($('.findme').siblings());
-
-
-$('button').fadeIn(3000);
+$('#first').on('click', () => {
+    $('div').eq(1).fadeOut(800);
+});
+$('[data-count="second"]').on('click', () => {
+    $('div').eq(2).fadeOut(800);
+});
+$('button').eq(2).on('click', () => {
+    $('.w-500').fadeOut(800);
+});
