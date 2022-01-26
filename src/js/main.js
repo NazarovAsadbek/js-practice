@@ -14,4 +14,7 @@ import './lib/lib'
 
 // console.log($('.some').closest('.findme'));
 
-console.log($('.findme').siblings());
+// console.log($('.findme').siblings());
+
+
+$('button').fadeIn(3000);
