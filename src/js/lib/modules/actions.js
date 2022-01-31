@@ -26,7 +26,7 @@ $.prototype.eq = function (i) {
 }
 
 
-$.prototype.indexTest = function () {
+$.prototype.index = function () {
     const parent = this[0].parentNode;
     const childs = [...parent.children];
 
